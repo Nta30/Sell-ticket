@@ -120,7 +120,7 @@
 
   /* Content */
   .content{
-    margin: 80px 35px;
+    margin: 80px 20px;
   }
   .content::after{
     content: "";
