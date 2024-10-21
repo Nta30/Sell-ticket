@@ -134,10 +134,10 @@
     margin: 20px 12px;
     min-height: 350px;
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
   }
   .content-element:hover{
     border: 5px solid var(--main-color);
-    transition: all 0.5s ease;
   }
   .content-element:hover .buy-btn a{
     background-color: var(--main-color);

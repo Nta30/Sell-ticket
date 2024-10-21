@@ -11,7 +11,12 @@
         display: block;
         text-align: right;
     }
+    /* Content */
 
+    /* Content Section 1 */
+    .section-1-element{
+        width: calc(50% - 24px);
+    }
     /* Footer */
     .footer-content{
         float: left;
@@ -50,13 +55,30 @@
         font-size: 28px;
     }
     .movie-info .movie-name{
-        font-size: 50px;
+        font-size: 44px;
     }
     .slider-btn{
         top: auto;
         bottom: 0;
         right: 0;
         width: auto;
+    }
+    /* Content */
+
+    /* Content Section 1 */
+    .section-1-header h2{
+        font-size: 40px;
+    }
+    .section-1-element{
+        width: calc(100% - 24px);
+    }
+
+    /* Content Section 3 */
+    .content-section-3{
+        padding-left: 20px;
+    }
+    .section-3-content h2{
+        font-size: 40px;
     }
     /* Footer */
     .footer-main{
