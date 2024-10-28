@@ -148,7 +148,7 @@
     height: 100%;
     position: absolute;
     object-fit: cover; 
-    filter: brightness(60%);
+    filter: brightness(70%);
   }
   .movie-description{
     position: absolute;
@@ -189,9 +189,7 @@
     transition: background-color 0.5s ease;
 
   }
-  .movie-info{
 
-  }
   /* Footer */
   #footer {
     background-color: #000;
