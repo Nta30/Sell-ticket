@@ -1,6 +1,9 @@
 /* Responsive cho Tablet */
 @media(min-width: 760px) and (max-width: 1024px){
     /* Header */
+    .content{
+        margin: 80px 19px;
+    }
     .nav{
         display: none;
     }
@@ -14,6 +17,7 @@
     /* Content */
     .content-element{
         width: calc(50% - 24px);
+        
     }
     /* Footer */
     .footer-content{
@@ -40,8 +44,8 @@
     }
     .content-element{
         float: none;
-        width: calc(100% - 20px);
-        margin: 20px 10px;
+        width: calc(100% - 60px);
+        margin: 20px 30px;
     }
     /* Footer */
     .footer-main{
