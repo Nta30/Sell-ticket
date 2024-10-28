@@ -71,43 +71,43 @@ html {
   padding: 16px;
 }
 /* Slider */
-.slider{
-    position: relative;
-    height: 550px;
-    width: 100%;
-  }
-  .slider .slider-background{
-    width: 100%;
-    height: 550px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    object-fit: cover;
-    filter: brightness(50%);
-  }
-  .slider .slider-content{
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: #fff;
-    text-align: center;
-  }
-  .slider a{
-    text-decoration: none;
-    color: #fff;
-    transition: color 0.5s ease;
-  }
-  .slider a:hover{
-    color: var(--main-color);
-  }
-  .slider h4{
-    font-size: 50px;
-    margin-top: 8px;
-  }
-  .slider span{
-    margin: 0 6px;
-  }
+.slider {
+  position: relative;
+  height: 550px;
+  width: 100%;
+}
+.slider .slider-background {
+  width: 100%;
+  height: 550px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+.slider .slider-content {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+.slider a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.5s ease;
+}
+.slider a:hover {
+  color: var(--main-color);
+}
+.slider h4 {
+  font-size: 50px;
+  margin-top: 8px;
+}
+.slider span {
+  margin: 0 6px;
+}
 /* Border */
 .border {
   width: 100%;
@@ -138,28 +138,30 @@ html {
   margin-bottom: 0;
   left: 26px;
 }
+
 .content-element:hover .content-element-img img {
   filter: brightness(100%);
+
 }
 
 .content-element-description {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.7); 
-    color: #fff;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end; 
-  }
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
 .content-element:hover .content-element-description {
-    opacity: 1;
-  }
+  opacity: 1;
+}
 
 .content-element {
   position: relative;
