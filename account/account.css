@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #e50914;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Slider */
+.slider {
+  position: relative;
+  height: 550px;
+  width: 100%;
+}
+.slider .slider-background {
+  width: 100%;
+  height: 550px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+.slider .slider-content {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+.slider a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.5s ease;
+}
+.slider a:hover {
+  color: var(--main-color);
+}
+.slider h4 {
+  font-size: 50px;
+  margin-top: 8px;
+}
+.slider span {
+  margin: 0 6px;
+}
+/* Border */
+.border {
+  width: 100%;
+  margin-top: 6px;
+}
+.border img {
+  width: 100%;
+  height: 10px;
+}
+/* Content */
+.content{
+    width: 70%;
+    padding: 70px 40px 60px 40px;
+    margin: 0 auto;
+}
+.content h1{
+    text-align: center;
+}
+.my-profile{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.my-profile button{
+    border: none;
+    background-color: #9d9b9b;
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: background-color 0.4s ease;
+}
+.my-profile button:hover{
+    background-color: var(--main-color);
+}
+.profile-image-pesonal,
+.membership{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.image-profile img{
+    border-radius: 50%;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+.welcome p{
+    font-weight: 600;
+}
+.box-account{
+    margin: 16px 0;
+    width: 100%;
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+.box-account-element{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.box-account-element button{
+    border: none;
+    background-color: #9d9b9b;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+.box-account-element button:hover{
+    background-color: var(--main-color);
+}
+.log-out{
+    margin-top: 20px;
+    text-align: right;
+}
+.log-out .log-out-btn{
+    margin-top: 12px;
+    border: none;
+    padding: 12px 16px;
+    color: #fff;
+    background-color: var(--main-color);
+    border-radius: 6px;
+    cursor: pointer;
+
+}
