@@ -178,11 +178,11 @@ html {
     width: 100%;
 }
 .section-2-left {
-    width: 270px;
+    width: 340px;
 }
 .section-2-right{
     position: relative;
-    width: 750px;
+    width: 950px;
 }
 .section-2-right i{
     display: block;
