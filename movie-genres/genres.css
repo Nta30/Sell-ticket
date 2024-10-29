@@ -132,7 +132,7 @@
     float: left;
     width: calc(33.3% - 24px);
     margin: 20px 12px;
-    min-height: calc(80vh - 200px);
+    min-height:38vh;
   }
   .content-element img{
     position: absolute;
