@@ -69,7 +69,7 @@ body {
   font-family: forte;
 }
 .movie-info .movie-name {
-  font-size: 90px;
+  font-size: 85px;
   color: #fff;
   max-width: 600px;
   transition: color 0.5s ease;
