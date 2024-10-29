@@ -58,7 +58,7 @@ function RegisterForm() {
     };
     localStorage.setItem('userData', JSON.stringify(userData));
     alert("Đăng kí thành công ! \n Vui lòng đăng nhập");
-    wrapper.classList.remove('active'); //Quay tro lai login
+    wrapper.classList.remove('active'); //Quay trở lại login
 
     return true;
 }
