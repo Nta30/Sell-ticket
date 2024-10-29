@@ -1,0 +1,110 @@
+/* Responsive cho Tablet */
+@media(min-width: 760px) and (max-width: 1024px){
+    /* Header */
+    .nav{
+        display: none;
+    }
+    .header-right{
+        display: none;
+    }
+    .header-menu{
+        display: block;
+        text-align: right;
+    }
+    /* Content */
+    .content {
+        margin: 0 30px;
+        
+    }
+    .cast-element {
+        width: calc(50% - 24px);
+    }
+    .content-element {
+        width: calc(50% - 24px);
+    }
+    /* Footer */
+    .footer-content{
+        float: left;
+        width: 50%;
+    }
+    .footer-main {
+        padding: 20px 0 40px;
+    }
+}
+
+@media(max-width: 759px){
+    /* Header */
+    .nav{
+        display: none;
+    }
+    .header-right{
+        display: none;
+    }
+    .header-menu{
+        display: block;
+        text-align: right;
+    }
+    .header-menu i {
+        padding: 0;
+    }
+    /* Content */
+    .content {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .content-section-1 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .section-1-right button {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    .cast-element {
+        width: calc(100% - 24px);
+    }
+    .content-element {
+        width: calc(100% - 24px);
+    }
+    .story-line p, h1 {
+        margin: 10px;
+    }
+    .info-list li {
+        width: calc(100% - 24px);
+    }
+    .item.item-4 {
+        margin-bottom: 15px;
+    }
+    .top-cast h1 {
+        margin-left: 0;
+    }
+
+    /* Footer */
+    .footer-main{
+        padding: 0 ;
+    }
+    .footer-top{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer-top .footer-logo{
+        display: none;
+    }
+    .footer-top .footer-info .help-and-policy{
+        padding: 8px;
+    }
+    .footer-top .footer-info .media{
+        margin-top: 16px;
+    }
+    .footer-content{
+        float: none;
+        width: 100%;
+    }
+    .footer-content .email{
+        width: 100%;
+    }
+    .footer-section-1 {
+        padding: 0 20px;
+    }
+}
