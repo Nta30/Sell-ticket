@@ -255,9 +255,6 @@ iframe {
     text-align: right;
   }
   /* Content */
-  .content {
-    margin: 80px auto;
-  }
   .content-element {
     float: none;
     width: calc(100% - 60px);
@@ -328,9 +325,6 @@ iframe {
 }
 @media (min-width: 760px) and (max-width: 1024px) {
   /* Header */
-  .content {
-    margin: 80px 19px;
-  }
   .nav {
     display: none;
   }
