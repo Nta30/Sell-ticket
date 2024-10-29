@@ -1,0 +1,81 @@
+/* Responsive cho Tablet */
+@media (min-width: 760px) and (max-width: 1024px) {
+    /* Header */
+    .nav {
+      display: none;
+    }
+    .header-right {
+      display: none;
+    }
+    .header-menu {
+      display: block;
+      text-align: right;
+    }
+    /* content */
+    .content-element {
+      width: calc(50% - 30px);
+    }
+  
+    /* Footer */
+    .footer-content {
+      float: left;
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 759px) {
+    /* Header */
+    .nav {
+      display: none;
+    }
+    .header-right {
+      display: none;
+    }
+    .header-menu {
+      display: block;
+      text-align: right;
+    }
+  
+    /* Content */
+    .content {
+      margin: 80px auto;
+    }
+    .content-element {
+      float: none;
+      width: calc(100% - 20px);
+      margin: 20px 10px;
+    }
+    .content-element-img {
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    .content-element-description {
+      opacity: 1;
+      background: rgba(94, 91, 91, 0.5);
+    }
+  
+    /* Footer */
+    .footer-main {
+      padding: 28px 0;
+    }
+    .footer-top {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .footer-top .footer-logo {
+      display: none;
+    }
+    .footer-top .footer-info .help-and-policy {
+      padding: 8px;
+    }
+    .footer-top .footer-info .media {
+      margin-top: 16px;
+    }
+    .footer-content {
+      float: none;
+      width: 100%;
+    }
+    .footer-content .email {
+      width: 100%;
+    }
+  }

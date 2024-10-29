@@ -1,0 +1,61 @@
+/* Responsive cho Tablet */
+@media(min-width: 760px) and (max-width: 1024px){
+    /* Header */
+    .nav{
+        display: none;
+    }
+    .header-right{
+        display: none;
+    }
+    .header-menu{
+        display: block;
+        text-align: right;
+    }
+    /* Content */
+
+    /* Footer */
+    .footer-content{
+        float: left;
+        width: 50%;
+    }
+}
+
+@media(max-width: 759px){
+    /* Header */
+    .nav{
+        display: none;
+    }
+    .header-right{
+        display: none;
+    }
+    .header-menu{
+        display: block;
+        text-align: right;
+    }
+    /* Content */
+
+    /* Footer */
+    .footer-main{
+        padding: 28px 0 ;
+    }
+    .footer-top{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer-top .footer-logo{
+        display: none;
+    }
+    .footer-top .footer-info .help-and-policy{
+        padding: 8px;
+    }
+    .footer-top .footer-info .media{
+        margin-top: 16px;
+    }
+    .footer-content{
+        float: none;
+        width: 100%;
+    }
+    .footer-content .email{
+        width: 100%;
+    }
+}

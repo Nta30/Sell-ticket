@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+:root {
+  --main-color: #e50914;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Header */
+.nav li:nth-child(2) a {
+  color: var(--main-color);
+}
+/* Slider */
+.slider {
+  position: relative;
+  height: 550px;
+  width: 100%;
+}
+.slider .slider-background {
+  width: 100%;
+  height: 550px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+.slider .slider-content {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+.slider a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.5s ease;
+}
+.slider a:hover {
+  color: var(--main-color);
+}
+.slider h4 {
+  font-size: 50px;
+  margin-top: 8px;
+}
+.slider span {
+  margin: 0 6px;
+}
+/* Border */
+.border {
+  width: 100%;
+  margin-top: 6px;
+}
+.border img {
+  width: 100%;
+  height: 10px;
+}
+/* Content */
+.content {
+  width: 80%;
+  margin: 48px auto;
+  border: 2px solid #ccc;
+}
+.ticketbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-title h1 {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+.screen {
+  margin-top: 24px;
+  width: 100%;
+}
+.screen img {
+  width: 100%;
+}
+.row {
+  margin: 2px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
+.row-1{
+  margin-top: 56px;
+}
+.row-10{
+  margin-bottom: 16px;
+}
+.row-elem{
+  font-size: 10px;
+  text-align: center;
+  line-height: 35px;
+  border: 1px solid var(--main-color);
+  min-width: 35px;
+  min-height: 35px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.row-1 .row-elem,
+.row-2 .row-elem,
+.row-3 .row-elem{
+  border: 1px solid rgb(66, 66, 102);
+}
+.selected{
+  background-color: var(--main-color);
+  color: #fff;
+}
+.bottom-content{
+  display: flex;
+  width: 80%;
+  margin: 80px auto 0 auto;
+  border-top: 2px dashed #000;
+  border-left: 2px dashed #000;
+  border-right: 2px dashed #000;
+}
+.bottom-content-elem{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bottom-content-elem p{
+  text-align: center;
+}
+.poster-movie img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
