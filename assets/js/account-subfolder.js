@@ -6,9 +6,9 @@ for(const menuAccount of menuAccounts){
     menuAccount.addEventListener('click', (event) => {
         event.preventDefault();
         if(isLoggedIn){
-            window.location.href = './account/account.html';
+            window.location.href = '../account/account.html';
         }else{
-            window.location.href = './login-form/login.html';
+            window.location.href = '../login-form/login.html';
         }
     });
 }
