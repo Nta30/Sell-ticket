@@ -1,14 +1,19 @@
-//Header
-window.addEventListener('scroll', () => {
-    const header = document.getElementById('header');
+//Kiểm tra xem người dùng login chưa
+const menuAccounts = document.querySelectorAll('.account');
+const isLoggedIn = localStorage.getItem('isLogin') === 'true';
 
-    //Kiểm tra vị trí của header
-    if(window.scrollY > 100){
-        header.classList.add('scrolled'); //Thêm class scrolled khi cuộn
-    }else{
-        header.classList.remove('scrolled'); // Xóa màu header khi ở đầu trang
-    }
-});
+for(const menuAccount of menuAccounts){
+    menuAccount.addEventListener('click', (event) => {
+        event.preventDefault();
+        if(isLoggedIn){
+            window.location.href = '../../account/account.html';
+        }else{
+            window.location.href = '../../login-form/login.html';
+        }
+    });
+}
+
+
 // trailer
 const watchTrailer = document.querySelectorAll('.movie-btn-trailer') //lay tat ca cac phan tu co class
 const model = document.querySelector('.model')

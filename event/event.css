@@ -10,7 +10,7 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 /* Header */
-.nav li:nth-child(3) a {
+.nav > li:nth-child(3) > a {
   color: var(--main-color);
 }
 /* Slider */
