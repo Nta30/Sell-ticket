@@ -15,6 +15,13 @@
   .content-element {
     width: calc(50% - 30px);
   }
+  .news-container .news-item {
+    flex-direction: column;
+    margin: 10px 0;
+  }
+  .news-item-img {
+    max-width: none;
+  }
 
   /* Footer */
   .footer-content {
@@ -53,7 +60,13 @@
     opacity: 1;
     background: rgba(94, 91, 91, 0.5);
   }
-
+  .news-container .news-item {
+    flex-direction: column;
+    margin: 10px 0;
+  }
+  .news-item-img {
+    max-width: none;
+  }
   
 
   /* Footer */
