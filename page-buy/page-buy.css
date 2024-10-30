@@ -10,10 +10,6 @@
 html {
   font-family: Arial, Helvetica, sans-serif;
 }
-/* Header */
-.nav li:nth-child(2) a {
-  color: var(--main-color);
-}
 /* Slider */
 .slider {
   position: relative;

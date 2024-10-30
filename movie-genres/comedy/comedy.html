@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Ticket</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../../assets/css/header.css">
+    <link rel="stylesheet" href="../../assets/css/footer.css">
     <link rel="stylesheet" href="../genres.css">
+    <link rel="stylesheet" href="../../assets/css/sidebar.css">
     <link rel="stylesheet" href="../genres-responsive.css">
 </head>
 <body>
@@ -24,7 +27,27 @@
                         <a href="../../index.html">Home</a>
                     </li>
                     <li>
-                        <a href="../../movie/movie.html">Movies</a>
+                        <a href="../../movie/movie.html">
+                            Movies
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="subnav">
+                            <li>
+                                <a href="../comedy/comedy.html">Comedy</a>
+                            </li>
+                            <li>
+                                <a href="#">Action</a>
+                            </li>
+                            <li>
+                                <a href="../cartoon/cartoon.html">Cartoon</a>
+                            </li>
+                            <li>
+                                <a href="../adventure/adventure.html">Adventure</a>
+                            </li>
+                            <li>
+                                <a href="../thriller/thriller.html">Thriller</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <a href="../../event/event.html">Events</a>
@@ -36,10 +59,10 @@
             </div>
             <div class="header-right">
                 <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-                <a href=""><i class="fa-solid fa-user"></i></a>
+                <a href="" class="account"><i class="fa-solid fa-user"></i></a>
             </div>
             <div class="header-menu">
-                <i class="fa-solid fa-bars"></i>
+                <i class="js-open-sidebar-btn fa-solid fa-bars"></i>
             </div>
         </div>
         <!-- Slider -->     
@@ -84,7 +107,7 @@
                 <img src="../../assets/img/banner3.jpg" alt="">
                 <div class="content-description">
                     <div class="movie-info">
-                        <a href="../../moviein4/moviein4.html" class="movie-title">Love Nightmare</a>
+                        <a href="../../moviein4/moviein4.html" class="movie-title">Nightmare</a>
                         <p>
                             <i class="fa-solid fa-tag"></i>
                             <a href="../adventure/adventure.html">Adventure</a>, 
@@ -176,8 +199,35 @@
             <div class="footer-section-2">© Copyright 2023 by Ovatheme.com</div>
         </div>
     </div>
+    <!-- Sidebar -->
+    <div class="sidebar-wrapper hidden">
+        <div class="sidebar">
+            <div class="close-sidebar">
+                <i class="js-close-sidebar-btn fa-solid fa-x"></i>
+            </div>
+            <ul class="sidebar-nav">
+                <li>
+                    <a href="../../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../../movie/movie.html">Movies</a>
+                </li>
+                <li>
+                    <a href="../../event/event.html">Events</a>
+                </li>
+                <li>
+                    <a href="../../contacts/contact.html">Contacts</a>
+                </li>
+                <li>
+                    <a href="" class="account">Account</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 
 
+    <script src="../../assets/js/header-scrolled.js"></script>
+    <script src="../../assets/js/sidebar.js"></script>
     <script src="../genres.js"></script>
 </body>
 </html>
