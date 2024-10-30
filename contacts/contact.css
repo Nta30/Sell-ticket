@@ -285,7 +285,7 @@ button.btn:active {
   margin-bottom: 30px; /* Khoảng cách giữa các thẻ p */
   line-height: 1.4;
   text-align: left;
-  max-height: 50px;
+  min-height: 90px;
 }
 .info-box:hover {
   border: 2px solid #e50914;
@@ -370,6 +370,7 @@ iframe {
     margin-top: 3px;
     margin-bottom: 15px;
     margin-left: 20px;
+    min-height: 44px;
   }
   .info-box h2 {
     padding-top: 15px;
@@ -435,7 +436,7 @@ iframe {
     margin-bottom: 15px;
 
     text-align: left;
-    max-height: 50px;
+    min-height: 44px;
     margin-left: 30px;
   }
   .info-box h2 {
