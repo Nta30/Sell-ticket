@@ -16,4 +16,7 @@ function closeTrailer(){
 // lap qua tung the va nghe hanh vi click
 watchTrailer.addEventListener('click',showTrailer);
 // nghe hanh vi click vao btn close
-modelclose.addEventListener('click',closeTrailer)
+modelclose.addEventListener('click',closeTrailer);
+
+const buyBtn = document.querySelector('.js-buy-ticket');
+
