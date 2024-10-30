@@ -49,10 +49,12 @@
     margin-left: 30px;
     margin-right: 30px;
   }
-  .content-element-description{
+  .content-element-description {
     opacity: 1;
     background: rgba(94, 91, 91, 0.5);
   }
+
+  
 
   /* Footer */
   .footer-main {
