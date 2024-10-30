@@ -1,8 +1,6 @@
 // Lấy dữ liệu người dùng từ localStorage
 const userData = JSON.parse(localStorage.getItem('userData'));
 
-// Kiểm tra xem dữ liệu có tồn tại không trước khi hiển thị
-
     document.querySelector('.username-display').innerText = userData.username;
     document.querySelector('.useremail-display').innerText = userData.email;
 
