@@ -32,7 +32,7 @@ function startAutoSlide() {
     slideInterval = setInterval(() => {
         currentIndex = (currentIndex + 1) % totalSlides; // Tăng index và quay vòng lại khi hết slide
         showSlide(currentIndex); // Hiển thị slide mới
-    }, 4000); // 4000ms = 4 giây
+    }, 7000); // 7000ms = 7 giây
 }
 // Tự động trượt sau 4 giây
 startAutoSlide(); // Bắt đầu tự động chạy slide
