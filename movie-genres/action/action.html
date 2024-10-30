@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../assets/css/header.css">
     <link rel="stylesheet" href="../../assets/css/footer.css">
     <link rel="stylesheet" href="../genres.css">
+    <link rel="stylesheet" href="../../assets/css/buy-ticket.css">
     <link rel="stylesheet" href="../../assets/css/sidebar.css">
     <link rel="stylesheet" href="../genres-responsive.css">
 </head>
@@ -85,7 +86,10 @@
         <!-- Content -->
         <div class="content">
 
-            <div class="content-element">
+            <div class="content-element product"
+            data-img-src="../assets/img/avatar-1.jpg"
+            data-movieName="Avatar 2"
+            >
                 <img src="../../assets/img/avatar-1.jpg" alt="">
                 <div class="content-description">
                     <div class="movie-info">
@@ -99,12 +103,15 @@
                         </p>
                         <div class="movie-buttons">
                             <a class="movie-btn-trailer">Watch Trailer</a>
-                            <a class="movie-btn-buy">Get Ticket</a>
+                            <a class="movie-btn-buy js-buy-ticket">Get Ticket</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="content-element">
+            <div class="content-element product"
+            data-img-src="../assets/img/banner-02.jpg"
+            data-movieName="The Witcher Season 2"
+            >
                 <img src="../../assets/img/banner-02.jpg" alt="">
                 <div class="content-description">
                     <div class="movie-info">
@@ -118,12 +125,15 @@
                         </p>
                         <div class="movie-buttons">
                             <a  class="movie-btn-trailer">Watch Trailer</a>
-                            <a  class="movie-btn-buy">Get Ticket</a>
+                            <a  class="movie-btn-buy js-buy-ticket">Get Ticket</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="content-element">
+            <div class="content-element product"
+            data-img-src="../assets/img/cartoon4.jpg"
+            data-movieName="Attack On Titan Season 4"
+            >
                 <img src="../../assets/img/cartoon4.jpg" alt="">
                 <div class="content-description">
                     <div class="movie-info">
@@ -137,12 +147,15 @@
                         </p>
                         <div class="movie-buttons">
                             <a class="movie-btn-trailer">Watch Trailer</a>
-                            <a class="movie-btn-buy">Get Ticket</a>
+                            <a class="movie-btn-buy js-buy-ticket">Get Ticket</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="content-element">
+            <div class="content-element product"
+            data-img-src="../assets/img/movie-image-09-768x513.jpg"
+            data-movieName="Attack On Titan Season 4"
+            >
                 <img src="../../assets/img/movie-image-09-768x513.jpg" alt="">
                 <div class="content-description">
                     <div class="movie-info">
@@ -156,7 +169,7 @@
                         </p>
                         <div class="movie-buttons">
                             <a class="movie-btn-trailer">Watch Trailer</a>
-                            <a class="movie-btn-buy">Get Ticket</a>
+                            <a class="movie-btn-buy js-buy-ticket">Get Ticket</a>
                         </div>
                     </div>
                 </div>
@@ -263,10 +276,232 @@
             </ul>
         </div>
     </div>
+    <!-- Buy ticket wrapper -->
+    <div class="buy-ticket-wrapper">
+        <div class="buy-ticket-content">
+            <div class="close-buy-ticket">
+                <i class="fa-solid fa-x"></i>
+            </div>
+
+            <div class="date-time buy-ticket-section">
+                <!-- 1 -->
+                <div class="date-time-element main-color">
+                    <span class="col-left-date-time">
+                        <span>03</span>
+                        <span>Thu</span>
+                    </span>
+                    <span class="col-right-date-time">
+                        05
+                    </span>
+                </div>
+                <!-- 2 -->
+                <div class="date-time-element">
+                    <span class="col-left-date-time">
+                        <span>03</span>
+                        <span>Fri</span>
+                    </span>
+                    <span class="col-right-date-time">
+                        06
+                    </span>
+                </div>
+                <!-- 3 -->
+                <div class="date-time-element">
+                    <span class="col-left-date-time">
+                        <span>03</span>
+                        <span>Sat</span>
+                    </span>
+                    <span class="col-right-date-time">
+                        07
+                    </span>
+                </div>
+                <!-- 4 -->
+                <div class="date-time-element">
+                    <span class="col-left-date-time">
+                        <span>03</span>
+                        <span>Sun</span>
+                    </span>
+                    <span class="col-right-date-time">
+                        08
+                    </span>
+                </div>
+                <!-- 5 -->
+                <div class="date-time-element">
+                    <span class="col-left-date-time">
+                        <span>03</span>
+                        <span>Mon</span>
+                    </span>
+                    <span class="col-right-date-time">
+                        09
+                    </span>
+                </div>
+                <!-- 6 -->
+                <div class="date-time-element">
+                    <span class="col-left-date-time">
+                        <span>03</span>
+                        <span>Tue</span>
+                    </span>
+                    <span class="col-right-date-time">
+                        10
+                    </span>
+                </div>
+                <!-- 7 -->
+                <div class="date-time-element">
+                    <span class="col-left-date-time">
+                        <span>03</span>
+                        <span>Wed</span>
+                    </span>
+                    <span class="col-right-date-time">
+                        11
+                    </span>
+                </div>
+                <!-- 8 -->
+                <div class="date-time-element">
+                    <span class="col-left-date-time">
+                        <span>03</span>
+                        <span>Thu</span>
+                    </span>
+                    <span class="col-right-date-time">
+                        12
+                    </span>
+                </div>
+                <!-- 9 -->
+                <div class="date-time-element">
+                    <span class="col-left-date-time">
+                        <span>03</span>
+                        <span>Fri</span>
+                    </span>
+                    <span class="col-right-date-time">
+                        13
+                    </span>
+                </div>
+                <!-- 10 -->
+                <div class="date-time-element">
+                    <span class="col-left-date-time">
+                        <span>03</span>
+                        <span>Sat</span>
+                    </span>
+                    <span class="col-right-date-time">
+                        14
+                    </span>
+                </div>
+                <!-- 11 -->
+                <div class="date-time-element">
+                    <span class="col-left-date-time">
+                        <span>03</span>
+                        <span>Sun</span>
+                    </span>
+                    <span class="col-right-date-time">
+                        15
+                    </span>
+                </div>
+                <!-- 12 -->
+                <div class="date-time-element">
+                    <span class="col-left-date-time">
+                        <span>03</span>
+                        <span>Mon</span>
+                    </span>
+                    <span class="col-right-date-time">
+                        16
+                    </span>
+                </div>
+                <!-- 13 -->
+                <div class="date-time-element">
+                    <span class="col-left-date-time">
+                        <span>03</span>
+                        <span>Tue</span>
+                    </span>
+                    <span class="col-right-date-time">
+                        17
+                    </span>
+                </div>
+                <!-- 14 -->
+                <div class="date-time-element">
+                    <span class="col-left-date-time">
+                        <span>03</span>
+                        <span>Wed</span>
+                    </span>
+                    <span class="col-right-date-time">
+                        18
+                    </span> 
+                </div>
+            </div>
+            <div class="place buy-ticket-section">
+                <div class="place-element selected js-select-elem">Hà Nội</div>
+                <div class="place-element js-select-elem">Bắc Giang</div>
+                <div class="place-element js-select-elem">Thanh Hóa</div>
+                <div class="place-element js-select-elem">Hà Tĩnh</div>
+                <div class="place-element js-select-elem">Hải Dương</div>
+            </div>
+            <div class="showtimes">
+                <div class="venue">
+                    <h3 class="venue-name"
+                    data-venue="Theater 1"
+                    >Theater 1</h3>
+                    <h4 class="venue-room-name">Imax</h4>
+                    <ul class="venue-showtime">
+                        <li>
+                            <a href="../../page-buy/page-buy.html">7:30 am</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="venue"
+                data-venue="Theater 2"
+                >
+                    <h3 class="venue-name">Theater 2</h3>
+                    <h4 class="venue-room-name">Imax</h4>
+                    <ul class="venue-showtime">
+                        <li>
+                            <a href="../../page-buy/page-buy.html">8:30 am</a>
+                            <a href="../../page-buy/page-buy.html">2:30 pm</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="venue"
+                data-venue="Theater 3"
+                >
+                    <h3 class="venue-name">Theater 3</h3>
+                    <h4 class="venue-room-name">Imax</h4>
+                    <ul class="venue-showtime">
+                        <li>
+                            <a href="../../page-buy/page-buy.html">10:30 am</a>
+                            <a href="../../page-buy/page-buy.html">11:30 am</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="venue"
+                data-venue="Theater 4"
+                >
+                    <h3 class="venue-name">Theater 4</h3>
+                    <h4 class="venue-room-name">Imax</h4>
+                    <ul class="venue-showtime">
+                        <li>
+                            <a href="../../page-buy/page-buy.html">9:30 am</a>
+                            <a href="../../page-buy/page-buy.html">11:30 am</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="venue"
+                data-venue="Theater 5"
+                >
+                    <h3 class="venue-name">Theater 5</h3>
+                    <h4 class="venue-room-name">Imax</h4>
+                    <ul class="venue-showtime">
+                        <li>
+                            <a href="../../page-buy/page-buy.html">15:30 pm</a>
+                            <a href="../../page-buy/page-buy.html">17:30 pm</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <script src="../../assets/js/header-scrolled.js"></script>
     <script src="../../assets/js/sidebar.js"></script>
     <script src="../genres.js"></script>
+    <script src="../../assets/js/buy-ticket-menu.js"></script>
+    <script src="../../assets/js/date-time-seclect.js"></script>
 </body>
 </html>
