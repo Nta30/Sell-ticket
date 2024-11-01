@@ -73,6 +73,7 @@ body {
   color: #fff;
   max-width: 600px;
   transition: color 0.5s ease;
+  cursor: pointer;
 }
 .movie-info .movie-name:hover {
   color: var(--main-color);

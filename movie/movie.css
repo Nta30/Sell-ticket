@@ -91,7 +91,7 @@
     height: 100%;
     position: absolute;
     object-fit: cover; 
-    filter: brightness(70%);
+    filter: brightness(80%);
   }
   .movie-description{
     position: absolute;
