@@ -63,7 +63,7 @@ html {
   margin: 48px auto;
   border: 2px solid #ccc;
 }
-.ticketbox{
+.ticketbox {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,13 +87,13 @@ html {
   justify-content: center;
   gap: 2px;
 }
-.row-1{
+.row-1 {
   margin-top: 56px;
 }
-.row-10{
+.row-10 {
   margin-bottom: 16px;
 }
-.row-elem{
+.row-elem {
   font-size: 10px;
   text-align: center;
   line-height: 35px;
@@ -105,14 +105,14 @@ html {
 }
 .row-1 .row-elem,
 .row-2 .row-elem,
-.row-3 .row-elem{
+.row-3 .row-elem {
   border: 1px solid rgb(66, 66, 102);
 }
-.selected{
+.selected {
   background-color: var(--main-color);
   color: #fff;
 }
-.bottom-content{
+.bottom-content {
   display: flex;
   padding: 8px;
   width: 50%;
@@ -121,20 +121,26 @@ html {
   border-left: 2px dashed #000;
   border-right: 2px dashed #000;
 }
-.bottom-content-elem{
+.bottom-content-elem {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.bottom-content-elem p{
+.bottom-content-elem p {
   text-align: center;
 }
-.poster-movie img{
+.poster-movie img {
   width: 100px;
   height: 100px;
   object-fit: cover;
 }
-.info-movie h3{
+.info-movie h3 {
   text-align: center;
+}
+.buy-ticket-btn {
+  margin-top: 12px;
+  cursor: pointer;
+  min-width: 60px;
+  min-height: 20px;
 }

@@ -35,15 +35,15 @@ function RegisterForm() {
     var terms = document.getElementById('terms').checked;
 
     if (!validUserName(username)) {
-        alert("Username không hợp lệ !");
+        alert("Vui lòng nhập username ít nhất 4 ký tự, chỉ bao gồm chữ cái, số hoặc dấu gạch dưới (_).");
         return false;
     }
     if (!validEmail(email2)) {
-        alert("Đinh dạng email không hợp lệ !");
+        alert("Vui lòng nhập địa chỉ email hợp lệ (ví dụ: example@domain.com).");
         return false;
     }
     if (!validPassword(password2)) {
-        alert("Password không hợp lệ !");
+        alert("Password phải chứa ít nhất 6 ký tự và bao gồm ít nhất một chữ cái.");
         return false;
     }
     if (!terms) {

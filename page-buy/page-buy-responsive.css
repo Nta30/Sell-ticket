@@ -33,7 +33,17 @@
         text-align: right;
     }
     /* Content */
-
+    .content{
+        width: 100%;
+    }
+    .row-elem{
+        line-height: 25px;
+        min-height: 25px;
+        min-width: 25px;
+    }
+    .bottom-content{
+        width: 90%;
+    }
     /* Footer */
     .footer-main{
         padding: 28px 0 ;

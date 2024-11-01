@@ -15,7 +15,7 @@
 
     /* Content Section 1 */
     .section-1-element{
-        width: calc(50% - 24px);
+        width: calc(50% - 14px);
     }
     /* Content Section 5 */
     .background-5{
@@ -94,7 +94,7 @@
         font-size: 40px;
     }
     .section-1-element{
-        width: calc(100% - 24px);
+        width: 100%;
     }
 
     /* Content Section 3 */
