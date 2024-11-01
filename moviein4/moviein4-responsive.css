@@ -30,6 +30,10 @@
     .footer-main {
         padding: 20px 0 40px;
     }
+    /* Trailer */
+    .model-container{
+        width: 80%;
+    }
 }
 
 @media(max-width: 759px){
@@ -106,5 +110,9 @@
     }
     .footer-section-1 {
         padding: 0 20px;
+    }
+    /* Trailer */
+    .model-container{
+        width: 80%;
     }
 }

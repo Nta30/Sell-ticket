@@ -46,6 +46,10 @@
         float: left;
         width: 50%;
     }
+    /* Trailer */
+    .model-container{
+        width: 80%;
+    }
 }
 
 @media(max-width: 759px){
@@ -87,8 +91,6 @@
         right: 0;
         width: auto;
     }
-    /* Content */
-
     /* Content Section 1 */
     .section-1-header h2{
         font-size: 40px;
@@ -157,5 +159,9 @@
     }
     .footer-content .email{
         width: 100%;
+    }
+    /* Trailer */
+    .model-container{
+        width: 80%;
     }
 }
