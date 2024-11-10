@@ -254,13 +254,11 @@ body {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  position: relative;
   padding-left: 35px;
+  display: flex;
+  align-items: center;
 }
 .section-3-content {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
   max-width: 500px;
 }
 .section-3-content h3 {
