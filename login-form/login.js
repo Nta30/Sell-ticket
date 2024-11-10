@@ -13,16 +13,19 @@ loginLink.addEventListener('click', (event) => {
 });
 
 function validUserName(username) {
+    // Username ít nhất 4 ký tự, chỉ bao gồm chữ cái, số hoặc dấu gạch dưới (_).
     var userPattern = /^[A-Za-z0-9_]{4,}$/;
     return userPattern.test(username);
 }
 
 function validEmail(email) {
+    //  example@domain.com
     var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailPattern.test(email);
 }
 
 function validPassword(password) {
+    // Password phải chứa ít nhất 6 ký tự và bao gồm ít nhất một chữ cái.
     var passwordPattern = /^(?=.*[A-Za-z]).{6,}$/;
     return passwordPattern.test(password);
 }
